@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    background-color:#f0f0f0;
+}
+.QR-container{
+    background-color:hsl(212, 45%, 89%) ;
+    margin:8rem 3rem;
+    padding:4rem 3rem;
+}
+.QR-wrapper{
+    background-color:#ffffff ;
+    padding: 0.3em 2px;
+    margin: 0rem 31rem;
+
+}
+.QR-main{
+    text-align: center;
+    
+}
+img{
+    width:150px;
+    height:150px;
+}
+.QR-text p{
+    font-size: 15px;
+    color:hsl(220, 15%, 55%) ;
+}
+.QR-text{
+    text-align: center;
+}
