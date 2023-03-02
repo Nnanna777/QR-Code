@@ -1,31 +1,25 @@
 body{
     margin:0;
+    padding:0;
     box-sizing: border-box;
-    background-color:#f0f0f0;
-}
-.QR-container{
     background-color:hsl(212, 45%, 89%) ;
-    margin:8rem 3rem;
-    padding:4rem 3rem;
 }
-.QR-wrapper{
-    background-color:#ffffff ;
-    padding: 0.3em 2px;
-    margin: 0rem 31rem;
-
-}
-.QR-main{
-    text-align: center;
-    
+.qr-container{
+    max-width: 250px;
+    padding: 0.8rem;
+    background-color: white;
+    border-radius: 20px;/*
+    margin:120px 300px;*/
+    margin:100px auto;
 }
 img{
-    width:150px;
-    height:150px;
+    max-width:100%;
+    border-radius:20px;
 }
-.QR-text p{
-    font-size: 15px;
-    color:hsl(220, 15%, 55%) ;
-}
-.QR-text{
+.qr-image, .qr-text{
     text-align: center;
+    font-size:15px;
+}
+h1{
+    margin-bottom: 1rem;
 }
